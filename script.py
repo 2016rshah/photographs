@@ -15,7 +15,7 @@ f.write("""
 """)
 
 for filename in glob.iglob('./*.JPG'):
-         f.write('<img src="%s" /><br>\n' % filename)
+         f.write('<img src="%s" />\n' % filename)
 
 f.write("""
 </body>
